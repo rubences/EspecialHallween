@@ -1,6 +1,5 @@
 # Regla de Cramer
 
- 
 import os
  
 def sarrus(A):
@@ -18,8 +17,8 @@ def main():
               [0.0,0.0,0.0,0.0],\
               [0.0,0.0,0.0,0.0]]
     res = [0.0,0.0,0.0]
-    print "\n\tREGLA DE CRAMER\n\n\nA1x + B1y + C1z = D1"
-    print "A2x + B2y + C2z = D2\nA3x + B3y + C3z = D3\n\nIngresar valores:\n"
+    print ("\n\tREGLA DE CRAMER\n\n\nA1x + B1y + C1z = D1")
+    print ("A2x + B2y + C2z = D2\nA3x + B3y + C3z = D3\n\nIngresar valores:\n")
     sismat[0][0] = input("Ingrese A1 > ")
     sismat[0][1] = input("Ingrese B1 > ")
     sismat[0][2] = input("Ingrese C1 > ")

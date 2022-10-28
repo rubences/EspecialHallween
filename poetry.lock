@@ -125,6 +125,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "hashlib"
+version = "20081119"
+description = "Secure hash and message digest algorithm library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -478,7 +486,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
+content-hash = "c717e59102654aab4fe60d457c31300a5fb8be53b39eb40a46f4b4790da1a8b8"
 
 [metadata.files]
 aiohttp = []
@@ -492,6 +500,7 @@ colorama = []
 debugpy = []
 flask = []
 frozenlist = []
+hashlib = []
 idna = []
 importlib-metadata = []
 itsdangerous = []
